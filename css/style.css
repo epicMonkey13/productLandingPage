@@ -5,8 +5,22 @@
 }
 
 #header-img {
- background-image: url(./img/photo.avif);
- background-repeat: no-repeat;
- width: 100%;
- height: 8rem;
+ height: 5rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+ 
+}
+
+#how-it-works {
+margin: 10rem;
+display: flex;
+}
+
+@media (max-width: 650px) {
+  header {
+    flex-wrap: wrap;
+  }
 }
